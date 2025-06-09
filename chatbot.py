@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot = ChatBot( # create chatbot instance
-    'TerminalBot',
+    'NicBot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     database_uri='sqlite:///db.sqlite3'
 )
